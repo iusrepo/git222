@@ -84,8 +84,8 @@
 %endif
 
 Name:           git222
-Version:        2.22.0
-Release:        2%{?dist}
+Version:        2.22.1
+Release:        1%{?dist}
 Summary:        Fast Version Control System
 License:        GPLv2
 URL:            https://git-scm.com/
@@ -991,6 +991,9 @@ rmdir --ignore-fail-on-non-empty "$testdir"
 %{?with_docs:%{_pkgdocdir}/git-svn.html}
 
 %changelog
+* Tue Oct 08 2019 Luis M. Segundo <blackfile@fedoraproject.org> - 2.22.1-1
+- Update to 2.22.1
+
 * Sun Jun 09 2019 Carl George <carl@george.computer> - 2.22.0-2
 - Port from Fedora to IUS
 - Disable tests that fail as root
