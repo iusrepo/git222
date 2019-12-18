@@ -84,7 +84,7 @@
 %endif
 
 Name:           git222
-Version:        2.22.1
+Version:        2.22.2
 Release:        1%{?dist}
 Summary:        Fast Version Control System
 License:        GPLv2
@@ -991,6 +991,9 @@ rmdir --ignore-fail-on-non-empty "$testdir"
 %{?with_docs:%{_pkgdocdir}/git-svn.html}
 
 %changelog
+* Wed Dec 18 2019 Carl George <carl@george.computer> - 2.22.2-1
+- Latest upstream
+
 * Tue Oct 08 2019 Luis M. Segundo <blackfile@fedoraproject.org> - 2.22.1-1
 - Update to 2.22.1
 
