@@ -84,7 +84,7 @@
 %endif
 
 Name:           git222
-Version:        2.22.3
+Version:        2.22.4
 Release:        1%{?dist}
 Summary:        Fast Version Control System
 License:        GPLv2
@@ -991,6 +991,10 @@ rmdir --ignore-fail-on-non-empty "$testdir"
 %{?with_docs:%{_pkgdocdir}/git-svn.html}
 
 %changelog
+* Thu Jul 23 2020 Chun-Chi Hung <b10102229@gmail.com> - 2.22.4-1
+- Latest upstream
+- Includes fix for CVE-2020-11008
+
 * Wed Apr 15 2020 Carl George <carl@george.computer> - 2.22.3-1
 - Latest upstream
 - Includes fix for CVE-2020-5260
